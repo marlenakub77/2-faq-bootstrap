@@ -1,0 +1,27 @@
+
+/* .accordion-button::after {
+    background-image: none;
+} */
+
+/* .accordion-button:not(.collapsed)::after{
+    background-image: none;
+    
+} */
+
+.accordion-button{
+    text-align: center;
+    display: block;
+}    
+
+.accordion-button.text-muted.collapsed{
+    color: orange!important;
+}
+
+.accordion-button.text-muted:not(.collapsed){
+    text-decoration-line: underline;
+}
+
+.accordion-button:focus{
+    border: none;
+    box-shadow: none;
+}
